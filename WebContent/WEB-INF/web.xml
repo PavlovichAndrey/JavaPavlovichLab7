@@ -44,4 +44,14 @@
     <servlet-name>MessageListServlet</servlet-name>
     <url-pattern>/messages.do</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>NewMessageServlet</display-name>
+    <servlet-name>NewMessageServlet</servlet-name>
+    <servlet-class>bsu.rfe.group7.lab7.Pavlovich.servlets.NewMessageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NewMessageServlet</servlet-name>
+    <url-pattern>/send_message.do</url-pattern>
+  </servlet-mapping>
 </web-app>
