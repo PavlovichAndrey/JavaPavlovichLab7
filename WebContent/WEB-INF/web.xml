@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>MyChatServlet</display-name>
+    <servlet-name>MyChatServlet</servlet-name>
+    <servlet-class>bsu.rfe.group7.lab7.Pavlovich.servlets.WebChatServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyChatServlet</servlet-name>
+    <url-pattern>/MyChatServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
