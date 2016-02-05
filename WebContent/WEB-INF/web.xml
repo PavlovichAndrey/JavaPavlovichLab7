@@ -34,4 +34,14 @@
     <servlet-name>LogoutServlet</servlet-name>
     <url-pattern>/logout.do</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>MessageListServlet</display-name>
+    <servlet-name>MessageListServlet</servlet-name>
+    <servlet-class>bsu.rfe.group7.lab7.Pavlovich.servlets.MessageListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MessageListServlet</servlet-name>
+    <url-pattern>/messages.do</url-pattern>
+  </servlet-mapping>
 </web-app>
